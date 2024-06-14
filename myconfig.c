@@ -215,7 +215,8 @@ void initConfig(int argc, char **argv)
 
 	printf(_("\n欢迎使用MentoHUST\t版本: %s\n"
 			"Copyright (C) 2009-2010 HustMoon Studio\n"
-			"人到华中大，有甜亦有辣。明德厚学地，求是创新家。\n"
+			"人到中珠大，有甜亦有辣。奏响天琴音，走好人生路。\n"
+            "博学之，审问之，慎思之，明辨之，笃行之!!!\n"
             "已支持macOS Monterey与Apple Silicon -- Vincent Tsang\n"
 			"Bug report to %s\n\n"), VERSION, PACKAGE_BUGREPORT);
 	saveFlag = (readFile(&daemonMode)==0 ? 0 : 1);
